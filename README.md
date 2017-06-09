@@ -112,6 +112,8 @@ You can customize the commit message in this step
 
 9. `git push origin AddAuthors_PUNetID` Push the commits from AddAuthors branch to `origin`.  This creates the branch `AddAuthors_PUNetID` on `USERNAME/FirstGitPractice` on GitHub.
 
+9. Alternate to the above command is `git push -u origin AddAuthors_PUNetID` which sets the local branch to track the remote branch.
+
 10. Generate a pull request to chaddcw/FirstGitPractice from your web browser if one is not automatically generated.  Make sure you are looking at branch `AddAuthors_PUNetID` in your web browser.
 
 10. Go look at your pull request on the AddAuthors_PUNetID branch in [chaddcw/FirstGitPractice] (https://github.com/chaddcw/FirstGitPractice).
@@ -134,7 +136,7 @@ Switched to branch 'master'
 Your branch is ahead of 'origin/master' by 2 commits.
   (use "git push" to publish your local commits)
 ```
-17. `cat dataFile.md`
+18. `cat dataFile.md`
 
 17. `git fetch upstream master # Get changes from the group repository`
 
