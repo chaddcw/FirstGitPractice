@@ -3,6 +3,8 @@ FirstGitPractice
 
 A repository to use to get familiar with Git and GitHub.  
 
+[Lecture material](http://zeus.cs.pacificu.edu/chadd/cs360f16/Lectures/Lec4_Git.pdf) to support this unit.
+
 **Note:** that GitHub generally guides you through the user interface using `big green buttons`.
 
 **Note:** I don't use `--no-ff` with upstream/master below to simplifiy the history. I recommend that with GitHub, you don't use `--no-ff` in this instance.  If you merge a local branch to master, I would use `--no-ff`
